@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: #558B2F;
+    background-color: #558B2F; /* Green header */
     color: white;
 }
 
@@ -61,7 +61,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #F1F8E9;
+    background-color: #F1F8E9; /* Light green */
 }
 
 .hero-content h1 {
@@ -93,4 +93,50 @@ nav ul li a:hover {
 .hero-image img {
     height: 350px;
     border-radius: 10px;
+}
+
+/* SHOP BY PEST SOLUTION */
+.shop-by-pest {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.shop-by-pest h2 {
+    font-size: 2rem;
+    color: #33691E;
+    margin-bottom: 20px;
+}
+
+.pest-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pest-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.pest-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #8BC34A;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pest-item img:hover {
+    transform: scale(1.1);
+}
+
+.pest-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
 }
