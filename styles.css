@@ -36,6 +36,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -43,6 +44,7 @@ nav ul li a:hover {
     color: #FFD700;
 }
 
+/* HEADER ICONS */
 .header-icons {
     display: flex;
     align-items: center;
@@ -53,6 +55,16 @@ nav ul li a:hover {
     padding: 5px;
     border-radius: 5px;
     border: none;
+}
+
+.header-icons a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-icons a:hover {
+    color: #FFD700;
 }
 
 /* HERO SECTION */
@@ -91,7 +103,8 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-    height: 350px;
+    height: 250px; /* Reduced from 350px */
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -122,6 +135,13 @@ nav ul li a:hover {
     width: 120px;
 }
 
+.pest-item a {
+    text-decoration: none;
+    color: #444;
+    text-align: center;
+    display: block;
+}
+
 .pest-item img {
     width: 100px;
     height: 100px;
@@ -139,4 +159,39 @@ nav ul li a:hover {
     font-size: 1rem;
     font-weight: bold;
     color: #444;
+}
+
+/* STYLES FOR ADDITIONAL PAGES */
+.page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.page-container h1 {
+    font-size: 2.5rem;
+    color: #33691E;
+}
+
+.page-container p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* BACK TO HOME LINK */
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #8BC34A;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background-color: #558B2F;
 }
